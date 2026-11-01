@@ -10,7 +10,7 @@ It's the same problem I work on by day. I lead product on digital adoption for l
 
 I look in two places: the friction I hit in my own work, and where work and technology are heading. Where the two meet, there's usually a gap, something the coming future needs that doesn't exist yet. That's what I build.
 
-Markwise is an example. In mid 2026, agents were writing long PRDs and specs in markdown for me, and the only way to give feedback was to describe it in chat. When I talked to other builders, I heard the same thing: reviewing and collaborating on what an agent wrote was hard. With more and more work moving to agents, I knew a shared place to comment and answer back had to exist. Neither Claude nor ChatGPT had one, so I built it: you comment on the exact words, and the agent answers every note. In September, Anthropic launched Claude Docs and OpenAI launched Pages in ChatGPT, both built around comments you share with the AI. That confirmed what my own friction and other builders' friction had been telling me. Markwise filled that gap months before the mainstream tools shipped it.
+Markwise is an example: I built it months before Claude Docs and ChatGPT Pages shipped the same idea.
 
 ## Things I've built
 
@@ -40,11 +40,11 @@ Markwise is an example. In mid 2026, agents were writing long PRDs and specs in 
 
 ### [AI Agent FM](https://github.com/farandclose/ai-agent-fm)
 
-**The problem:** When you build with a coding agent, the finished code is only the residue. The real story is the dead ends, the reversal at midnight, the bug that ate an afternoon. That's where the learning is, and it's gone the moment the session ends.
+**Why I built it:** Now that coding is cheap and an agent can build almost anything, the harder question is whether you're solving the right problem. That's hard to see from inside the build. I wanted a way to step outside myself and hear my own work the way an objective second person would.
 
-**What's changing:** Every session with a coding agent is now recorded, turn by turn. The story of your build already exists. Nobody reads it back.
+**What's changing:** Every session with a coding agent is now recorded, turn by turn: what you asked, what you decided, where you changed your mind. The story of your thinking already exists. Nobody reads it back.
 
-**What it does:** Turns your session traces into a private podcast episode, with a host who interviews a version of you about what you built. You hear your own build as a story, on a walk.
+**What it does:** It reads your session traces and your conversations with the agent, pulls out your thought process, and turns it into a private podcast episode, where a host interviews a version of you about what you built and why. It's a little quirky, and it doesn't fix a pain point. It's simply something I found worth building.
 
 ## What I believe
 
