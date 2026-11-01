@@ -46,28 +46,10 @@ Markwise is an example: I built it months before Claude Docs and ChatGPT Pages s
 
 **What it does:** It reads your session traces and your conversations with the agent, pulls out your thought process, and turns it into a private podcast episode, where a host interviews a version of you about what you built and why. It's a little quirky, and it doesn't fix a pain point. It's simply something I found worth building.
 
-## What I believe
-
-- Capability isn't the bottleneck for AI. Adoption is.
-- Feedback to an agent shouldn't get lost in a chat window.
-- The best tools stay out of the way, so the work leads.
-
-Lately I'm learning in public about AI evals, local-first personal assistants, and how product managers work alongside coding agents.
-
-## A bit about me
+## About me
 
 - **Head of Product at Whatfix**, working on digital adoption and enterprise AI.
 - Before that, **Director of Product at Games24x7**, where the products I led grew revenue 14x in five years.
 - 15+ years building B2B and B2C products. Based in Bengaluru.
 
-## Writing
-
-- **[Far & Close](https://farandclose.github.io)**: a product builder's notes on making AI agents useful.
-- **1% Better** on Substack: PM craft, one small improvement at a time.
-  <!-- Add the Substack link here before publishing, e.g. [1% Better](https://YOURNAME.substack.com) -->
-
-## Say hello
-
-If you're building tools that help people actually use AI agents, or you tried one of mine and it broke, I'd love to hear from you.
-
-[LinkedIn](https://www.linkedin.com/in/saurabhmehta2/) · [X](https://x.com/Saurabhm6) · or open an issue on any repo.
+If you're building tools that help people actually use AI agents, or you tried one of mine and it broke, I'd love to hear from you: [LinkedIn](https://www.linkedin.com/in/saurabhmehta2/) · [X](https://x.com/Saurabhm6) · or open an issue on any repo.
