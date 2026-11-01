@@ -8,10 +8,9 @@ It's the same problem I work on by day. I lead product on digital adoption for l
 
 ## How I build
 
-- **Start with my own friction.** I hit a problem, build the smallest version that removes it, and use it every day before I share it.
-- **The human stays in charge.** Agents draft, act and answer. A person decides what is done.
-- **Truth lives in the file.** No sidecar database, no account, no lock-in. If it can travel with your repo, it should.
-- **Any agent.** Claude Code, Codex, Gemini CLI, or whatever comes next.
+I look in two places: the friction I hit in my own work, and where work and technology are heading. Where the two meet, there's usually a gap, something the coming future needs that doesn't exist yet. That's what I build.
+
+Markwise is an example. In mid 2026, agents were writing long PRDs and specs in markdown for me, and the only way to give feedback was to describe it in chat. When I talked to other builders, I heard the same thing: reviewing and collaborating on what an agent wrote was hard. With more and more work moving to agents, I knew a shared place to comment and answer back had to exist. Neither Claude nor ChatGPT had one, so I built it: you comment on the exact words, and the agent answers every note. In September, Anthropic launched Claude Docs and OpenAI launched Pages in ChatGPT, both built around comments you share with the AI. That confirmed what my own friction and other builders' friction had been telling me. Markwise filled that gap months before the mainstream tools shipped it.
 
 ## What I'm building
 
