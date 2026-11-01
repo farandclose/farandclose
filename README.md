@@ -12,17 +12,39 @@ I look in two places: the friction I hit in my own work, and where work and tech
 
 Markwise is an example. In mid 2026, agents were writing long PRDs and specs in markdown for me, and the only way to give feedback was to describe it in chat. When I talked to other builders, I heard the same thing: reviewing and collaborating on what an agent wrote was hard. With more and more work moving to agents, I knew a shared place to comment and answer back had to exist. Neither Claude nor ChatGPT had one, so I built it: you comment on the exact words, and the agent answers every note. In September, Anthropic launched Claude Docs and OpenAI launched Pages in ChatGPT, both built around comments you share with the AI. That confirmed what my own friction and other builders' friction had been telling me. Markwise filled that gap months before the mainstream tools shipped it.
 
-## What I'm building
+## Things I've built
 
-| Project | What it does |
-|---|---|
-| **[Markwise](https://github.com/farandclose/markwise)** | Google Docs style review for the markdown your agent writes. You comment on the exact words, your agent answers every note, and only you resolve. Everything is saved inside the file. [markwise.dev](https://markwise.dev) · `npm i -g markwise` |
-| **[Bot Portal](https://www.botportal.app)** | Your bookmarks come back alive. One click sends any page to your agent, and it comes back as a summary, a voice note or a map of ideas. Coming to Chrome. |
-| **[AI Agent FM](https://github.com/farandclose/ai-agent-fm)** | Turns your coding agent session traces into a private podcast about how you built something. The real story of a build is in the traces, and nobody reads them. |
-| **[PM Workspace](https://github.com/farandclose/pm-workspace)** | A self-organising second brain for product managers who work in Claude Code. One TODO, a concept index, and a `/reconcile` that files everything for you. |
-| **[md-to-html-view](https://github.com/farandclose/md-to-html-view)** | Turns any markdown file into a clean, read-only, Google Doc style page. Zero dependencies, works offline. |
-| **[speak-skills](https://github.com/farandclose/speak-skills)** | Hear your agent's responses as spoken audio with `/speak` and `/vocal`. |
-| **[dependency-diagnostic](https://github.com/farandclose/dependency-diagnostic)** | A paste-in check of how exposed your Node or Python project is to the next supply chain attack. |
+### [Bot Portal](https://www.botportal.app)
+
+**The problem:** Historically, read-it-later apps have kept ending up in the graveyard. Pocket shut down in 2025. It happened because we love to bookmark, save and stash, but we rarely go back. There's always something new to consume, and once a thing is bookmarked, we tell ourselves we'll get to it. We don't. That isn't a tooling failure, it's human nature.
+
+**What's changing:** Soon each of us will have a personal agent. It can take on the drudgery and be proactive about what we saved, instead of waiting for us to return.
+
+**What it does:** A Chrome extension. Bookmark anything and it goes straight to your agent. You tell the agent what to do with it: turn it into a video, a podcast or a summary, or go research the topic deeper. Your bookmarks come back to you in the form that suits you.
+
+### [Markwise](https://markwise.dev)
+
+**The problem:** In mid 2026, agents were writing long PRDs, specs and plans in markdown, and giving feedback was where it broke down. In chat you described "the timeline in section 3" instead of pointing at it, and the feedback scrolled away with the session. Edit the file yourself, and the agent never knew what changed or what still needed an answer. When I talked to other builders, I heard the same thing.
+
+**What changed:** More and more documents were becoming first drafts written by agents, yet neither Claude nor ChatGPT had a place where you and the AI could comment back and forth. In September, Anthropic launched Claude Docs and OpenAI launched Pages in ChatGPT, both built around comments you share with the AI. Markwise was there months earlier.
+
+**What it does:** You comment and suggest edits on the exact words, the way you would in Google Docs. The agent answers every note, and only you decide what's resolved. All of it is saved inside the markdown file, so it travels with your repo and works with any agent.
+
+### [PM Workspace](https://github.com/farandclose/pm-workspace)
+
+**The problem:** A PM fields a constant stream of requests: Slack, email, comments on docs, feature request trackers. The answer to each one usually lives across several docs, decks and threads, so much of the job becomes finding the right information. That's work about work, the mundane part you have to get through before the important part. Because it eats so much time and energy, the task that matters most gets lost in the noise.
+
+**What's changing:** With Claude Code, an assistant can read, sort and connect a whole folder of your work. Staying organised no longer has to be your job; it can be automated. A whole team can share one common space, so nobody repeats the same mundane work or goes hunting for information.
+
+**What it does:** Two things. First, it organises your information. Drop anything in and it's filed and indexed by concept, so you never think about folders. Each person works in a private space, a shared team space holds what everyone relies on, and your research graduates from private to shared once you're confident in it. Second, it's a goal-aware to-do list. It knows what you're working toward and surfaces the task that matters most.
+
+### [AI Agent FM](https://github.com/farandclose/ai-agent-fm)
+
+**The problem:** When you build with a coding agent, the finished code is only the residue. The real story is the dead ends, the reversal at midnight, the bug that ate an afternoon. That's where the learning is, and it's gone the moment the session ends.
+
+**What's changing:** Every session with a coding agent is now recorded, turn by turn. The story of your build already exists. Nobody reads it back.
+
+**What it does:** Turns your session traces into a private podcast episode, with a host who interviews a version of you about what you built. You hear your own build as a story, on a walk.
 
 ## What I believe
 
