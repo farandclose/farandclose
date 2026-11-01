@@ -1,8 +1,10 @@
 # Hi, I'm Saurabh
 
-Most software gets bought and then avoided. AI agents are heading the same way.
+Every shift in how work gets done brings new tools. The PC brought the spreadsheet, and the web brought SaaS. Now work is moving to AI agents, and the tools for working alongside them barely exist yet.
 
-I'm a hands-on product builder, and I work on the layer that closes that gap: the distance between what agents can do and what people actually use them for. By day I lead product on digital adoption for large enterprises. On the side I build small, sharp tools for people who work with AI agents every day, and I publish the code here.
+I'm a hands-on product builder, and that's what I build: tools that help people hand work to agents, review what comes back, and understand how it got done.
+
+It's the same problem I work on by day. I lead product on digital adoption for large enterprises, helping people actually use the software their company already paid for. On the side I build for the agent era, and I publish the code here.
 
 ## How I build
 
